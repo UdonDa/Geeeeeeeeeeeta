@@ -215,7 +215,7 @@ namespace UnityEngine.XR.iOS {
 				return;
 			}
 			// Do something with the data in args.Snapshot
-			Debug.Log(args.Snapshot.Child("message").Value);
+			//Debug.Log(args.Snapshot.Child("message").Value);
 		}
 	}
 }

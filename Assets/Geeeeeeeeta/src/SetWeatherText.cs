@@ -21,7 +21,7 @@ namespace UnityEngine.XR.iOS {
 				var weatherText = requestWetherAPI.getTomorrowWeather();
 				var userPlace = requestWetherAPI.getUserPlace ();
 				setWetherTexts (weatherText, userPlace);
-				Debug.Log ("マンげ！！！！！！！！！！！！！" + weatherText + " : " + userPlace);
+				//Debug.Log ("マンげ！！！！！！！！！！！！！" + weatherText + " : " + userPlace);
 				requestWetherAPI.setIsFinishedForText ();
 			}
 		}
