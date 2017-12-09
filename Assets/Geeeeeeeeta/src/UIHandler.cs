@@ -204,7 +204,7 @@ namespace UnityEngine.XR.iOS {
 		public void sendMessagePushed() {
 			
 			Debug.Log ("firebase : onClick()");
-			var message = "マンげw";
+			var message = "pushed";
 			writePushed (message);
 		}
 
