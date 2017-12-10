@@ -116,7 +116,7 @@ public class QRCodeReader : MonoBehaviour {
 				var leftToRight = worldBottomRight - worldBottomLeft;
 				qrcodePlane.transform.forward = bottomToTop;
 				qrcodePlane.transform.position = worldBottomLeft + (bottomToTop + leftToRight) * 0.5f;
-				plane.transform.localScale = new Vector3(leftToRight.magnitude, 1, bottomToTop.magnitude) * 0.1f;
+				plane.transform.localScale = new Vector3(leftToRight.magnitude * 200, 1, bottomToTop.magnitude * 200) * 0.1f;
 				break;
 			}
 		}
